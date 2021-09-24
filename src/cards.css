@@ -83,23 +83,23 @@
 {
     height: 10px;
     width: 10px;
-    /* border-radius: 50%; */
+    border-radius: 50%;
     top: 20px;
     left: 50%;
     transform: translateX(-50%);
     background: transparent;
     border: 2px solid #013d4a;
 }
-.skillsContainer  .card .face.face2 h2
+.skillsContainer .card .face.face2 h2
 {
-    margin: 0;
-    padding: 0;
-    font-size: 1.5em;
+    margin: 5px;
+    padding: 10px;
+    font-size: 1em;
     color: #fff;
     transition: 0.5s;
     
 }
-.skillsContainer  .card:hover .face.face2 h2
+.skillsContainer .card:hover .face.face2 h2
 {
     font-size: 2em;
     color: #013d4a;

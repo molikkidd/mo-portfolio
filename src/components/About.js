@@ -23,53 +23,51 @@ const About = (props) => {
                     </div>
                     <div className="languages">
                         <div className="skillsContainer">
-                        <div class="card">
-                            <div class="face face1">
-                            <div class="content">
+                        <div className="card">
+                            <div className="face face1">
                                 <p>{languages}</p>
                             </div>
-                            </div>
-                            <div class="face face2">
+                            <div className="face face2">
                                 <h2>Languages</h2>
                             </div>
                         </div>
-                        <div class="card">
-                            <div class="face face1">
-                            <div class="content">
+                        <div className="card">
+                            <div className="face face1">
+                            <div className="content">
                                 <p>{frameWorks}</p>
                             </div>
                             </div>
-                            <div class="face face2">
+                            <div className="face face2">
                                 <h2>FrameWorks</h2>
                             </div>
                         </div>
-                        <div class="card">
-                            <div class="face face1">
-                            <div class="content">
+                        <div className="card">
+                            <div className="face face1">
+                            <div className="content">
                                 <p>{libraries}</p>
                             </div>
                             </div>
-                            <div class="face face2">
+                            <div className="face face2">
                                 <h2>Libraries</h2>
                             </div>
                         </div>
-                        <div class="card">
-                            <div class="face face1">
-                            <div class="content">
+                        <div className="card">
+                            <div className="face face1">
+                            <div className="content">
                                 <p>{dataBaseTools}</p>
                             </div>
                             </div>
-                            <div class="face face2">
+                            <div className="face face2">
                                 <h2>DataBase Tools</h2>
                             </div>
                         </div>
-                        <div class="card">
-                            <div class="face face1">
-                            <div class="content">
+                        <div className="card">
+                            <div className="face face1">
+                            <div className="content">
                                 <p>{other}</p>
                             </div>
                             </div>
-                            <div class="face face2">
+                            <div className="face face2">
                                 <h2>Other</h2>
                             </div>
                         </div>
