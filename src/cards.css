@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900');
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.skillsContainer 
+{
+    display: grid;
+    grid-template-columns: 215px 215px 215px;
+    grid-gap: 5px;
+    justify-content: center;
+}
+.skillsContainer .card 
+{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    background: #fff;
+    transition: 0.5s;
+    box-shadow: 5px 30px 50px rgba(0, 0, 0, .2);
+    border-radius: 9px;
+
+}
+.skillsContainer  .card:hover 
+{
+    box-shadow: 0 30px 50px rgba(0, 0, 0, .2);
+}
+.skillsContainer .card .face
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 9px;
+
+}
+.skillsContainer .card .face.face1
+{
+   box-sizing: border-box;
+   padding: 20px;
+   text-align: center;
+   background: #fff;
+   color: #013d4a;
+   border-radius: 9px;
+
+
+}
+.skillsContainer .card .face.face1 h2 
+{
+    margin-top: 70px;
+}
+.container .card .face.face1 a
+{
+    display: inline-block;
+    padding: 5px 10px;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #0c1f24;
+    border: 2px solid #013d4a;
+} 
+.skillsContainer .card .face.face1 a:hover
+{
+    color: #fff;
+    background: #013d4a;
+    
+}
+.skillsContainer .card .face.face2
+{
+    background: #0b728a;
+    transition: 0.5s;
+}
+.skillsContainer  .card:hover .face.face2
+{
+    height: 10px;
+    width: 10px;
+    /* border-radius: 50%; */
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: transparent;
+    border: 2px solid #013d4a;
+}
+.skillsContainer  .card .face.face2 h2
+{
+    margin: 0;
+    padding: 0;
+    font-size: 1.5em;
+    color: #fff;
+    transition: 0.5s;
+    
+}
+.skillsContainer  .card:hover .face.face2 h2
+{
+    font-size: 2em;
+    color: #013d4a;
+}
+
