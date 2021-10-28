@@ -8,16 +8,15 @@ import sampleImg from '../sampleImg.png'
 const Portfolio = () => {
     return (
         <div>
+            <div id="port">
+            <h3 >Recent Projects</h3>
+            </div>
             <Jumbotron className="portfolioCon" fluid>
-            <br/>
-            <br/>
-                
                 <div className="wrapper">
                     <div className="portCard">
                         <div className="front">
                         <h1>Indy-Mo</h1>
                         <p>FullStack App<span>2021</span></p>
-                        <p className="price">MZK</p>
                         </div>
                         <div className="right">
                         <h2>FullStack App</h2>
@@ -28,7 +27,6 @@ const Portfolio = () => {
                             <li><b>DataBase: </b>PostgreSQL </li>
                             <li><b>Other:</b></li>
                         </ul>
-                        <button>View Application</button>
                         </div>
                     </div>
                     <div className="img-wrapper">
@@ -39,18 +37,28 @@ const Portfolio = () => {
                     <div className="descriptionCard">
                         <div className="descriptionFace1">
                             <h3>Description of Project</h3>
+                            <p> 
+                            <b>About: </b> 
+                            Indy Mo is an application built to act as a template for a 
+                            future project in the Housing Industry. Its an all encompassing 
+                            app that allows the user to organize their day effeciently while
+                            staying update with Industry news.
+                            </p>  
                             <p>
-                            Indy Mo is a template that resembles a
-                                an all encompassing app that allows the user to
-                                organize their day effeciently.
-                            </p>     
+                            <b>My Role: </b>  
+                            Full Stack Web Developer (independent) 
+                            </p>
+                            <p>
+                            <b>View Application: </b>  
+                            <a href=""> Indy-Mo </a> 
+                            </p>
                         </div>
                         <div className="descriptionFace2">
                             <Image src={portfolio1} alt="port image" fluid/>
                         </div>
                     </div>
-                    </div>
-               
+                </div>
+    
             </Jumbotron>
         </div>
     )

@@ -72,11 +72,12 @@
 {
     color: #fff;
     background: #013d4a;
+
     
 }
 .skillsContainer .card .face.face2
 {
-    background: #0b728a;
+    background: #d0aa5b;
     transition: 0.5s;
 }
 .skillsContainer  .card:hover .face.face2
@@ -105,3 +106,10 @@
     color: #013d4a;
 }
 
+.descriptionFace2 {
+    background-color: #303736;
+    background-color: #6b574e;
+    background-color: #59bd99;
+    background-color: #d0aa5b;
+    background-color: #1fa1b8;
+  }

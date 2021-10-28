@@ -37,10 +37,12 @@ html {
   justify-content: space-evenly;
   align-items: center;
 }
+
 .navbar {
   background-color:black;
-  border: 1px solid rgb(37, 35, 35);
-  box-shadow: 6px 8px 11px rgba(9, 37, 73, 0.534);
+  /* background-color: #303736; */
+  border: 1px solid rgb(24, 22, 22);
+  /*box-shadow: 0px 3px 8px #1fa1b8; */
 }
 .navbar h1 {
   color:whitesmoke;
@@ -77,7 +79,7 @@ html {
 
 /* ABOUT ME PAGE */
 #about, .languages{
-  background-color:#d5e0eaa1;
+  background-color: #59bd99;
   margin: 2%;
   padding: 10px;
   text-align: center;
@@ -100,4 +102,13 @@ html {
   border-radius: 8px;
   margin: 10px;
 }
- 
+.aboutJumbo {
+  background-color: #1fa1b8;
+}
+.descriptionFace2 {
+  background-color: #303736;
+  background-color: #6b574e;
+  background-color: #59bd99;
+  background-color: #d0aa5b;
+  background-color: #1fa1b8;
+}

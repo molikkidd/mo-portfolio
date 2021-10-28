@@ -42,7 +42,7 @@ function App() {
     languages : [" Javascript | ", " HTML5 | " ," CSS3 | ", " RUBY "],
     frameWorks : [" Node.js | ", " Rails | ", " Express.js | " , " Sails.js | ", "AngularJS | ",  "React.js"],
     libraries : [" D3.js | ", "jQuery | " , " Bootstrap | " , " Foundation | " , "Angular Material"],
-    dataBaseTools : [" PostgreSQL", " MongoDB " , " Sequelize " , "Waterline"],
+    dataBaseTools : [" PostgreSQL", " MongoDB " , " Sequelize " , "Waterline", "Mongoose"],
     other : ["AJAX | ", "Heroku | ", "Git/Github | " ,"JSON | ", "REST APIs | ", "Adobe Creative Suite | ", "Bcrypt | " ,"Gulp "]
   }
     

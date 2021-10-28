@@ -7,8 +7,9 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    background-color: whitesmoke;
+    background-color: #1fa1b8;
     margin-top: 10px;
+    padding: 15px;
 }
 
 *,
@@ -40,7 +41,7 @@
   position: absolute;
   width: 320px;
   height: 450px;
-  padding: 34px 21px;
+  padding: 40px 60px;
   transition: all 350ms cubic-bezier(0.390, 0.575, 0.565, 1.000);
 }
 
@@ -89,7 +90,7 @@
   font-size: 16px;
 }
 
-span{
+span { 
   margin-left: 13px;
   opacity: .55;
 }
@@ -218,10 +219,124 @@ button:hover{
 .descriptionFace1 {
   position: absolute;
   text-align: center;
-  background-color: wheat;
+  background-color: #59bd99;
   height: 100%;
+  padding: 2em;
+  border-radius: 50px;
 }
 
 .descriptionFace2 {
-  
+  background-color: #303736;
+  background-color: #6b574e;
+  background-color: #59bd99;
+  background-color: #d0aa5b;
+  background-color: #1fa1b8;
+}
+
+/* test a button on the jumbotron */
+.newcompCon {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+  background-color: aqua;
+  width: 100%;
+  height: 510px;
+}
+.case-switch-wrap h3 {
+  font-family: "Lato", Sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0.5px;
+  color: #000000;
+}
+
+/* .case-switch {
+  position: relative;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: start;
+  height: 40px;
+  width: 130px;
+  background: #f0f0f0;
+  border-radius: 3px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0%), 0 1px rgba(255, 255, 255, 10%);
+} */
+
+.switch-label {
+  padding-left: 65px;
+  position: relative;
+  z-index: 999;
+}
+
+
+.switch-label input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.switch-label .checkmark {
+  position: absolute;
+  /* top: 0;
+  left: 0; */
+  /* height: 40px; */
+  width: 65px;
+  background: transparent /* set to transparent */;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+}
+
+
+.switch-label input:checked~.checkmark {
+  color: #fff;
+}
+ 
+/* set this one to be below the other in z-index */
+.switch-label.switch-label-off {
+  z-index: 998;
+}
+/* transition on checkmark color with tiny delay */
+.switch-label .checkmark {
+  transition: color .3s linear .05s;
+}
+
+/* new element to use as our slider */
+.switch-label.switch-label-off .checkmark::after {
+  content: " ";
+  position: absolute;
+  top: -245px;
+  z-index: -100;
+  left: 0;
+  height: 500px;
+  width: 400px;
+  background: #39ccae;
+  text-align: center;
+  border-radius: 4px;
+  transform: translateX(-400px);
+  transition: transform .3s ease-in-out;
+}
+
+.switch-label input:checked~.checkmark::after {
+  transform: translateX(0px);
+}
+
+.switch-label input:checked~.text {
+  font-weight: bold;
+}
+
+#port h3 {
+  text-align: center;
+  background-color: #59bd99;
+  margin-top: 10px;
+  height: 50px;
+  padding: 10px;
+  box-shadow:  0px 3px 9px skyblue;
 }

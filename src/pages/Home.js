@@ -2,6 +2,7 @@ import React from "react";
 import { Jumbotron, Container, Button} from "react-bootstrap";
 import About from "../components/About";
 import Portfolio from "../components/Portfolio";
+
 const Home = (props) => {
 
     const {skills} = props;
@@ -31,8 +32,10 @@ const Home = (props) => {
                     </Button>
                 </div>
                 </Container>
+                
             </Jumbotron>
             <About addSkills={skills}/>
+
             <Portfolio/>
                 <br/>
         </div>
